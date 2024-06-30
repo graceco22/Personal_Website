@@ -31,7 +31,7 @@ const renderContent = {
   ),
   3: (
     <InfoBox
-      text="Created many cool projects!"
+      text="Check out some of the projects I've made!"
       link="/projects"
       btnText="Visit my portfolio"
     />
