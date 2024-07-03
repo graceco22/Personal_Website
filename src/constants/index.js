@@ -1,4 +1,3 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     car,
     contact,
@@ -245,43 +244,43 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'ApexFit by Arc\'teryx',
+        description: "Created an application that notifies users to complete wellness tasks which will be verified using computer vision and then shared with friends and family.",
+        link: 'https://devpost.com/software/apexfit-by-arc-teryx',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'BestieBoost',
+        description: "Developed a full-stack fitness web application that harnesses AI to keep users motivated, accountable, and on track, like a virtual wellness bestie!",
+        link: "https://devpost.com/software/bestieboost?ref_content=user-portfolio&ref_feature=in_progress"
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'DinoAura',
+        description: "Programmed an emotionally intelligent chat bot that takes in a user's personality quiz results to create a corresponding chat bot that can provide personalized emotional guidance.",
+        link: 'https://devpost.com/software/dinoaura',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Yummy Source',
+        description: 'Built a full-stack web application that allows users to easily search for recipes and save their favorite recipes.',
+        link: 'https://github.com/graceco22/recipe-app',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Ink Wander',
+        description: 'Developed a full-stack web application that allows users to write and edit journal entries.',
+        link: 'https://github.com/graceco22/notes-app-ui',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Text Sum',
+        description: 'Created an application with a team of 7 that summarizes text from word vectors for the 2023 Datajam Hackathon.',
+        link: 'https://github.com/Vancouver-Datajam/Word-Embeddings',
     }
 ];
