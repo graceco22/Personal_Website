@@ -88,16 +88,16 @@ const Volcano = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
 
       switch (true) {
         case normalizedRotation >= 5.45 && normalizedRotation <= 5.85:
-          setCurrentStage(4);
+          setCurrentStage(3);
           break;
         case normalizedRotation >= 0.85 && normalizedRotation <= 1.3:
-          setCurrentStage(3);
+          setCurrentStage(1);
           break;
         case normalizedRotation >= 2.4 && normalizedRotation <= 2.6:
           setCurrentStage(2);
           break;
         case normalizedRotation >= 4.25 && normalizedRotation <= 4.75:
-          setCurrentStage(1);
+          setCurrentStage(4);
           break;
         default:
           setCurrentStage(null);

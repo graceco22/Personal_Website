@@ -14,13 +14,13 @@ const Home = () => {
 
   const adjustIslandForScreenSize = () => {
     let screenScale = null;
-    let screenPosition = [0, -5, -45];
-    let rotation = [0, 0, 0];
+    let screenPosition = [0, -5.5, -46];
+    let rotation = [1, 1, 2];
 
     if (window.innerWidth < 768) {
-      screenScale = [0.003, 0.003, 0.003];
+      screenScale = [0.0035, 0.0035, 0.0035];
     } else {
-      screenScale = [0.004, 0.004, 0.004];
+      screenScale = [0.0035, 0.0035, 0.0035];
     }
 
     return [screenScale, screenPosition];
