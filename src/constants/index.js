@@ -150,7 +150,7 @@ export const experiences = [
         company_name: "UBC Science Undergraduate Society",
         icon: "https://seeklogo.com/images/U/university-of-british-columbia-logo-F4496C20CA-seeklogo.com.png",
         iconBg: "#D0F4E3",
-        date: "May 2024 - Present",
+        date: "Jun 2024 - Present",
         points: [
             "Leading a team of 5 in the redesign and redevelopment of the organization's website, overseeing the transition from WordPress to a custom-coded platform, resulting in enhanced performance, security, and user experience.",
         ],
@@ -160,7 +160,7 @@ export const experiences = [
         company_name: "UBC BizTech",
         icon: "https://app.ubcbiztech.com/static/media/biztech_logo_2022.6727dd92.svg",
         iconBg: "#B9BCD6",
-        date: "June 2024 - Present",
+        date: "May 2024 - Present",
         points: [
             "Directing a team of 7 to host 7 tech-focused events such as hackathons and tech conferences for 700+ students",
         ],
