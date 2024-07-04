@@ -1,7 +1,7 @@
 import { useRef, useEffect } from "react";
 import { useAnimations, useGLTF } from "@react-three/drei";
 
-import planeScene from "../assets/3d/plane.glb";
+import planeScene from "../assets/3d/cartoon_plane.glb";
 
 const Plane = ({ isRotating, ...props }) => {
   const ref = useRef();
@@ -10,9 +10,9 @@ const Plane = ({ isRotating, ...props }) => {
 
   useEffect(() => {
     if (isRotating) {
-      actions["Take 001"].play();
+      actions["Fly"].play();
     } else {
-      actions["Take 001"].stop();
+      actions["Fly"].stop();
     }
   }, [actions, isRotating]);
 
