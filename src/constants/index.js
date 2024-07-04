@@ -37,16 +37,6 @@ export const skills = [
         type: "Backend",
     },
     {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
         imageUrl: html,
         name: "HTML",
         type: "Frontend",
@@ -130,6 +120,16 @@ export const skills = [
         imageUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
         name: "Bootstrap",
         type: "State Management",
+    } ,
+    {
+        imageUrl: git,
+        name: "Git",
+        type: "Version Control",
+    },
+    {
+        imageUrl: github,
+        name: "GitHub",
+        type: "Version Control",
     }
 ];
 

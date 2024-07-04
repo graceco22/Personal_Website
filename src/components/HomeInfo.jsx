@@ -27,7 +27,7 @@ const renderContent = {
   ),
   2: (
     <InfoBox
-      text="Competed at many hackathons and picked up many skills along the way"
+      text="Gained valuable experience through various internships, and club opportunities."
       link="/about"
       btnText="Learn more"
     />
