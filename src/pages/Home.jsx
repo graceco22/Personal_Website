@@ -34,7 +34,7 @@ const Home = () => {
       screenPosition = [0, -1.5, 0];
     } else {
       screenScale = [0.2, 0.2, 0.2];
-      screenPosition = [0, -4, -5];
+      screenPosition = [0, -3, -3];
     }
 
     return [screenScale, screenPosition];
@@ -78,6 +78,7 @@ const Home = () => {
             scale={planeScale}
             position={planePosition}
             rotation={[0, 20, 0]}
+            color={"#00FF00"}
           />
         </Suspense>
       </Canvas>
