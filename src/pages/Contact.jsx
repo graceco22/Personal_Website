@@ -46,9 +46,9 @@ const Contact = () => {
 
         setTimeout(() => {
           hideAlert();
-          setCurrentAnimation("idel");
+          setCurrentAnimation("idle");
           setForm({ name: "", email: "", message: "" });
-        }, [3000]);
+        }, [1000]);
       })
       .catch((error) => {
         setIsLoading(false);
