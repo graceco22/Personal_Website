@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { arrow } from "../assets/icons";
 
 const InfoBox = ({ text, link, btnText }) => (
   <div className="info-box">
